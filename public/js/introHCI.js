@@ -29,9 +29,9 @@ function addProjectDetails(e) {
 		var projectHTML = '<a href="#" class="thumbnail">' + '<img src="' + result['image'] + 
 		'" class="detailsImage">' + '<p>' + result['title'] + '</p>' + '<p><small>' 
 		+ result['date'] + '</small></p/a>' + result['summary']; 
-		console.log("this shit sucks " + projectHTML)
+		
 		$(".details", idNumber);
-		console.log('this is our id #' + idNumber);
+		
 		$("div #project"+ idNumber + " .details").html(projectHTML);
 		
 	});
